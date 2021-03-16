@@ -13,9 +13,12 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-      {/* <Header_2></Header_2>
-        <Abc></Abc>
-        <Welcome/> */}
+     
+        <Welcome name="Trincho" heroName="heroName"/>
+        <Welcome name="Trincho" heroName="heroName"/>
+        <Welcome name="Trincho" heroName="heroName">
+          <p>texto class component</p>  
+        </Welcome> 
         <Hello name="Jhoan" heroName="Batman" lastName="Martinez">
           <p>This is chlidren</p>
         </Hello>
