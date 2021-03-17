@@ -9,13 +9,15 @@ import Header_2 from "./components/comp_header_2"
 import Welcome from './components/Welcome'
 import Abc from "./components/Greet"
 import Hello from './components/Hello'
+import Message from './components/Message'
+import Counter from './components/Counter'
 
 function App() {
   return (
     <div className="App">
-     
-        <Welcome name="Trincho" heroName="heroName"/>
-        <Welcome name="Trincho" heroName="heroName"/>
+        <Counter/>
+        {/* <Message/> */}
+        {/* <Welcome name="Trincho" heroName="heroName"/>
         <Welcome name="Trincho" heroName="heroName">
           <p>texto class component</p>  
         </Welcome> 
@@ -25,7 +27,7 @@ function App() {
         <Hello name="Kira" heroName="superman">
           <button>submit</button>
         </Hello>
-        <Hello name="Milo" heroName="Wonderful woman"/>
+        <Hello name="Milo" heroName="Wonderful woman"/> */}
         
     </div>
   );
